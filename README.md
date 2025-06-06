@@ -99,3 +99,25 @@ TASK - 6
 In this project, we used the** K-Nearest Neighbors (KNN) **algorithm to classify the Iris dataset. We split the data into training and testing sets, then scaled the features for better model performance. We tested KNN models with different values of K (from 1 to 10) and evaluated their accuracy on the test set to find the optimal number of neighbors.
 
 The best K value was selected based on the highest accuracy score. Finally, we visualized the decision boundaries of the trained KNN model on two features of the scaled dataset. This visualization helps us understand how the model separates different classes based on their features.
+
+TASK - 7
+
+Problem Statement: Breast Cancer Classification using Support Vector Machine (SVM)
+
+Breast cancer is one of the most common and life-threatening diseases affecting women worldwide. Early diagnosis significantly improves the chances of successful treatment and recovery. However, manual diagnosis based on biopsy or imaging can be time-consuming and subject to human error.
+
+This project aims to develop a binary classification model using Support Vector Machine (SVM) to automatically distinguish between malignant and benign breast tumors using the Breast Cancer Wisconsin dataset. The goal is to create a reliable, efficient, and accurate model that can assist healthcare professionals in decision-making.
+
+Objectives:
+
+Load and preprocess the Breast Cancer dataset to make it suitable for binary classification.
+
+Train SVM classifiers using both linear and RBF kernels.
+
+Visualize the decision boundaries using 2D projection of the data.
+
+Tune hyperparameters like C and gamma using GridSearchCV for better performance.
+
+Evaluate model performance using cross-validation, confusion matrix, and classification report
+
+**accuracy is 97 % **
